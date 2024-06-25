@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1269E6C9254FF60F00B8BEF7 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1269E6C8254FF60F00B8BEF7 /* WebKit.framework */; };
+		1292B0792546858900F71F5C /* NOT_NETWORK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1292B0782546858900F71F5C /* NOT_NETWORK.swift */; };
+		129F701A25C0FC4800F7B010 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 129F701925C0FC4800F7B010 /* NetworkExtension.framework */; };
+		AC1940DD252C582F00ED7587 /* HELP.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1940DC252C582F00ED7587 /* HELP.swift */; };
+		AC1940E3252C79FE00ED7587 /* AGREEMENT.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1940E2252C79FE00ED7587 /* AGREEMENT.swift */; };
+		AC1940EB252C7AE100ED7587 /* terms4.html in Resources */ = {isa = PBXBuildFile; fileRef = AC1940E6252C7AE100ED7587 /* terms4.html */; };
+		AC1940EC252C7AE100ED7587 /* terms3.html in Resources */ = {isa = PBXBuildFile; fileRef = AC1940E7252C7AE100ED7587 /* terms3.html */; };
+		AC1940ED252C7AE100ED7587 /* terms2.html in Resources */ = {isa = PBXBuildFile; fileRef = AC1940E8252C7AE100ED7587 /* terms2.html */; };
+		AC1940EE252C7AE100ED7587 /* terms1.html in Resources */ = {isa = PBXBuildFile; fileRef = AC1940E9252C7AE100ED7587 /* terms1.html */; };
+		AC33FA702518453A00BD2E0E /* MEMBER_INFO.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC33FA6F2518453900BD2E0E /* MEMBER_INFO.swift */; };
+		AC33FA7425188AD100BD2E0E /* HOME.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC33FA7325188AD100BD2E0E /* HOME.swift */; };
+		AC33FA7725188C1E00BD2E0E /* BARCODE.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC33FA7625188C1E00BD2E0E /* BARCODE.swift */; };
+		AC3D28A4253443F5003ED401 /* MSID_DB.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3D28A2253443F5003ED401 /* MSID_DB.swift */; };
+		AC6C3A37251890C4004C9E14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACD3D393250F0B7E00CDD448 /* Main.storyboard */; };
+		ACA50421251B129700C33973 /* POINT.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA50420251B129600C33973 /* POINT.swift */; };
+		ACA7A42A2511A6D10061861C /* SCHOOL_SEARCH.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA7A4292511A6D10061861C /* SCHOOL_SEARCH.swift */; };
+		ACA7A42C2511ADD70061861C /* DATA_API.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA7A42B2511ADD70061861C /* DATA_API.swift */; };
+		ACD3D38E250F0B7E00CDD448 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD3D38D250F0B7E00CDD448 /* AppDelegate.swift */; };
+		ACD3D397250F0B8000CDD448 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD3D396250F0B8000CDD448 /* Assets.xcassets */; };
+		ACD3D39A250F0B8000CDD448 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACD3D398250F0B8000CDD448 /* LaunchScreen.storyboard */; };
+		ACD3D3A4250F0BFA00CDD448 /* EXTENSION.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD3D3A3250F0BFA00CDD448 /* EXTENSION.swift */; };
+		ACD3D3A6250F0C6F00CDD448 /* LOADING.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD3D3A5250F0C6F00CDD448 /* LOADING.swift */; };
+		ACD3D3B22510418F00CDD448 /* 이순신돋움체M.otf in Resources */ = {isa = PBXBuildFile; fileRef = ACD3D3AF2510418F00CDD448 /* 이순신돋움체M.otf */; };
+		ACD3D3B32510418F00CDD448 /* 이순신돋움체B.otf in Resources */ = {isa = PBXBuildFile; fileRef = ACD3D3B02510418F00CDD448 /* 이순신돋움체B.otf */; };
+		ACD3D3B42510418F00CDD448 /* 이순신돋움체L.otf in Resources */ = {isa = PBXBuildFile; fileRef = ACD3D3B12510418F00CDD448 /* 이순신돋움체L.otf */; };
+		ACD3D3BB25104E4700CDD448 /* 이순신돋움체B.otf in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD3D3B52510419700CDD448 /* 이순신돋움체B.otf */; };
+		ACD3D3BC25104E4700CDD448 /* 이순신돋움체L.otf in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD3D3B62510419700CDD448 /* 이순신돋움체L.otf */; };
+		ACD3D3BD25104E4700CDD448 /* 이순신돋움체M.otf in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD3D3B72510419700CDD448 /* 이순신돋움체M.otf */; };
+		ACD3D3BF251066B200CDD448 /* SLIDE_IN_TRANSITION.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD3D3BE251066B200CDD448 /* SLIDE_IN_TRANSITION.swift */; };
+		ACD3D3C22510677E00CDD448 /* SIGN_UP.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD3D3C12510677E00CDD448 /* SIGN_UP.swift */; };
+		DCAEA4A8145411DA33E13957 /* Pods_iBeacon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 989F55253C5A142A984EE8C6 /* Pods_iBeacon.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E573D343ABCC1D95EF40D43 /* Pods-iBeacon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBeacon.debug.xcconfig"; path = "Target Support Files/Pods-iBeacon/Pods-iBeacon.debug.xcconfig"; sourceTree = "<group>"; };
+		1269E6C8254FF60F00B8BEF7 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		1292B0782546858900F71F5C /* NOT_NETWORK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NOT_NETWORK.swift; sourceTree = "<group>"; };
+		129F701925C0FC4800F7B010 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		8E063391CFEA8E91140C5210 /* Pods-iBeacon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBeacon.release.xcconfig"; path = "Target Support Files/Pods-iBeacon/Pods-iBeacon.release.xcconfig"; sourceTree = "<group>"; };
+		989F55253C5A142A984EE8C6 /* Pods_iBeacon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iBeacon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC1940DC252C582F00ED7587 /* HELP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HELP.swift; sourceTree = "<group>"; };
+		AC1940E2252C79FE00ED7587 /* AGREEMENT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AGREEMENT.swift; sourceTree = "<group>"; };
+		AC1940E6252C7AE100ED7587 /* terms4.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = terms4.html; sourceTree = "<group>"; };
+		AC1940E7252C7AE100ED7587 /* terms3.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = terms3.html; sourceTree = "<group>"; };
+		AC1940E8252C7AE100ED7587 /* terms2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = terms2.html; sourceTree = "<group>"; };
+		AC1940E9252C7AE100ED7587 /* terms1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = terms1.html; sourceTree = "<group>"; };
+		AC33FA6F2518453900BD2E0E /* MEMBER_INFO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEMBER_INFO.swift; sourceTree = "<group>"; };
+		AC33FA7325188AD100BD2E0E /* HOME.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HOME.swift; sourceTree = "<group>"; };
+		AC33FA7625188C1E00BD2E0E /* BARCODE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BARCODE.swift; sourceTree = "<group>"; };
+		AC3D28A2253443F5003ED401 /* MSID_DB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSID_DB.swift; sourceTree = "<group>"; };
+		AC3D28A3253443F5003ED401 /* MSID_SQL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSID_SQL.h; sourceTree = "<group>"; };
+		ACA5041E251AE14200C33973 /* iBeacon.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iBeacon.entitlements; sourceTree = "<group>"; };
+		ACA50420251B129600C33973 /* POINT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POINT.swift; sourceTree = "<group>"; };
+		ACA7A4292511A6D10061861C /* SCHOOL_SEARCH.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCHOOL_SEARCH.swift; sourceTree = "<group>"; };
+		ACA7A42B2511ADD70061861C /* DATA_API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DATA_API.swift; sourceTree = "<group>"; };
+		ACD3D38A250F0B7E00CDD448 /* iBeacon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBeacon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACD3D38D250F0B7E00CDD448 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACD3D394250F0B7E00CDD448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACD3D396250F0B8000CDD448 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACD3D399250F0B8000CDD448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACD3D39B250F0B8000CDD448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACD3D3A3250F0BFA00CDD448 /* EXTENSION.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EXTENSION.swift; sourceTree = "<group>"; };
+		ACD3D3A5250F0C6F00CDD448 /* LOADING.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LOADING.swift; sourceTree = "<group>"; };
+		ACD3D3AF2510418F00CDD448 /* 이순신돋움체M.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "이순신돋움체M.otf"; sourceTree = "<group>"; };
+		ACD3D3B02510418F00CDD448 /* 이순신돋움체B.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "이순신돋움체B.otf"; sourceTree = "<group>"; };
+		ACD3D3B12510418F00CDD448 /* 이순신돋움체L.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "이순신돋움체L.otf"; sourceTree = "<group>"; };
+		ACD3D3B52510419700CDD448 /* 이순신돋움체B.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "이순신돋움체B.otf"; path = "../노라조/NORAJO/NORAJO/FONT/이순신돋움체B.otf"; sourceTree = "<group>"; };
+		ACD3D3B62510419700CDD448 /* 이순신돋움체L.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "이순신돋움체L.otf"; path = "../부산교육수첩/BusanEduBook/BusanEduBook/FONTS/이순신돋움체L.otf"; sourceTree = "<group>"; };
+		ACD3D3B72510419700CDD448 /* 이순신돋움체M.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "이순신돋움체M.otf"; path = "../부산교육수첩/BusanEduBook/BusanEduBook/FONTS/이순신돋움체M.otf"; sourceTree = "<group>"; };
+		ACD3D3BE251066B200CDD448 /* SLIDE_IN_TRANSITION.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLIDE_IN_TRANSITION.swift; sourceTree = "<group>"; };
+		ACD3D3C12510677E00CDD448 /* SIGN_UP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIGN_UP.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACD3D387250F0B7E00CDD448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1269E6C9254FF60F00B8BEF7 /* WebKit.framework in Frameworks */,
+				129F701A25C0FC4800F7B010 /* NetworkExtension.framework in Frameworks */,
+				DCAEA4A8145411DA33E13957 /* Pods_iBeacon.framework in Frameworks */,
+				ACD3D3BB25104E4700CDD448 /* 이순신돋움체B.otf in Frameworks */,
+				ACD3D3BC25104E4700CDD448 /* 이순신돋움체L.otf in Frameworks */,
+				ACD3D3BD25104E4700CDD448 /* 이순신돋움체M.otf in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18FBA2FA6D611F038CB6EE4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				129F701925C0FC4800F7B010 /* NetworkExtension.framework */,
+				1269E6C8254FF60F00B8BEF7 /* WebKit.framework */,
+				ACD3D3B52510419700CDD448 /* 이순신돋움체B.otf */,
+				ACD3D3B62510419700CDD448 /* 이순신돋움체L.otf */,
+				ACD3D3B72510419700CDD448 /* 이순신돋움체M.otf */,
+				989F55253C5A142A984EE8C6 /* Pods_iBeacon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4BC1C34E08E47684B761DA8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E573D343ABCC1D95EF40D43 /* Pods-iBeacon.debug.xcconfig */,
+				8E063391CFEA8E91140C5210 /* Pods-iBeacon.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AC1940E5252C7AE100ED7587 /* AGREE_HTML */ = {
+			isa = PBXGroup;
+			children = (
+				AC1940E6252C7AE100ED7587 /* terms4.html */,
+				AC1940E7252C7AE100ED7587 /* terms3.html */,
+				AC1940E8252C7AE100ED7587 /* terms2.html */,
+				AC1940E9252C7AE100ED7587 /* terms1.html */,
+			);
+			path = AGREE_HTML;
+			sourceTree = "<group>";
+		};
+		AC3D28A1253443F5003ED401 /* SQLite */ = {
+			isa = PBXGroup;
+			children = (
+				AC3D28A2253443F5003ED401 /* MSID_DB.swift */,
+				AC3D28A3253443F5003ED401 /* MSID_SQL.h */,
+			);
+			path = SQLite;
+			sourceTree = "<group>";
+		};
+		ACD3D381250F0B7E00CDD448 = {
+			isa = PBXGroup;
+			children = (
+				ACD3D38C250F0B7E00CDD448 /* iBeacon */,
+				ACD3D38B250F0B7E00CDD448 /* Products */,
+				4BC1C34E08E47684B761DA8B /* Pods */,
+				18FBA2FA6D611F038CB6EE4A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ACD3D38B250F0B7E00CDD448 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACD3D38A250F0B7E00CDD448 /* iBeacon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACD3D38C250F0B7E00CDD448 /* iBeacon */ = {
+			isa = PBXGroup;
+			children = (
+				ACA5041E251AE14200C33973 /* iBeacon.entitlements */,
+				ACD3D3AE2510418200CDD448 /* FONT */,
+				ACD3D3A2250F0BDD00CDD448 /* FUNCTION */,
+				ACD3D3A1250F0BB400CDD448 /* MAIN_CENTER */,
+				ACD3D3C02510676400CDD448 /* SIGN_UP */,
+				AC33FA7325188AD100BD2E0E /* HOME.swift */,
+				AC1940DC252C582F00ED7587 /* HELP.swift */,
+				ACA50420251B129600C33973 /* POINT.swift */,
+			);
+			path = iBeacon;
+			sourceTree = "<group>";
+		};
+		ACD3D3A1250F0BB400CDD448 /* MAIN_CENTER */ = {
+			isa = PBXGroup;
+			children = (
+				ACD3D38D250F0B7E00CDD448 /* AppDelegate.swift */,
+				ACD3D398250F0B8000CDD448 /* LaunchScreen.storyboard */,
+				ACD3D393250F0B7E00CDD448 /* Main.storyboard */,
+				ACD3D396250F0B8000CDD448 /* Assets.xcassets */,
+				ACD3D39B250F0B8000CDD448 /* Info.plist */,
+			);
+			path = MAIN_CENTER;
+			sourceTree = "<group>";
+		};
+		ACD3D3A2250F0BDD00CDD448 /* FUNCTION */ = {
+			isa = PBXGroup;
+			children = (
+				AC3D28A1253443F5003ED401 /* SQLite */,
+				ACA7A42B2511ADD70061861C /* DATA_API.swift */,
+				ACD3D3A3250F0BFA00CDD448 /* EXTENSION.swift */,
+				ACD3D3BE251066B200CDD448 /* SLIDE_IN_TRANSITION.swift */,
+				AC33FA7625188C1E00BD2E0E /* BARCODE.swift */,
+			);
+			path = FUNCTION;
+			sourceTree = "<group>";
+		};
+		ACD3D3AE2510418200CDD448 /* FONT */ = {
+			isa = PBXGroup;
+			children = (
+				ACD3D3B02510418F00CDD448 /* 이순신돋움체B.otf */,
+				ACD3D3B12510418F00CDD448 /* 이순신돋움체L.otf */,
+				ACD3D3AF2510418F00CDD448 /* 이순신돋움체M.otf */,
+			);
+			path = FONT;
+			sourceTree = "<group>";
+		};
+		ACD3D3C02510676400CDD448 /* SIGN_UP */ = {
+			isa = PBXGroup;
+			children = (
+				ACD3D3A5250F0C6F00CDD448 /* LOADING.swift */,
+				ACD3D3C12510677E00CDD448 /* SIGN_UP.swift */,
+				AC1940E5252C7AE100ED7587 /* AGREE_HTML */,
+				AC1940E2252C79FE00ED7587 /* AGREEMENT.swift */,
+				ACA7A4292511A6D10061861C /* SCHOOL_SEARCH.swift */,
+				AC33FA6F2518453900BD2E0E /* MEMBER_INFO.swift */,
+				1292B0782546858900F71F5C /* NOT_NETWORK.swift */,
+			);
+			path = SIGN_UP;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACD3D389250F0B7E00CDD448 /* iBeacon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACD3D39E250F0B8000CDD448 /* Build configuration list for PBXNativeTarget "iBeacon" */;
+			buildPhases = (
+				54FA2CD7989DB4F18DC0E062 /* [CP] Check Pods Manifest.lock */,
+				ACD3D386250F0B7E00CDD448 /* Sources */,
+				ACD3D387250F0B7E00CDD448 /* Frameworks */,
+				ACD3D388250F0B7E00CDD448 /* Resources */,
+				D2FD59F0B7814EC3BD84C24E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iBeacon;
+			productName = iBeacon;
+			productReference = ACD3D38A250F0B7E00CDD448 /* iBeacon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACD3D382250F0B7E00CDD448 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "장제현";
+				TargetAttributes = {
+					ACD3D389250F0B7E00CDD448 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = ACD3D385250F0B7E00CDD448 /* Build configuration list for PBXProject "iBeacon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACD3D381250F0B7E00CDD448;
+			productRefGroup = ACD3D38B250F0B7E00CDD448 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACD3D389250F0B7E00CDD448 /* iBeacon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACD3D388250F0B7E00CDD448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD3D39A250F0B8000CDD448 /* LaunchScreen.storyboard in Resources */,
+				ACD3D397250F0B8000CDD448 /* Assets.xcassets in Resources */,
+				AC1940EE252C7AE100ED7587 /* terms1.html in Resources */,
+				AC1940ED252C7AE100ED7587 /* terms2.html in Resources */,
+				ACD3D3B32510418F00CDD448 /* 이순신돋움체B.otf in Resources */,
+				AC6C3A37251890C4004C9E14 /* Main.storyboard in Resources */,
+				AC1940EC252C7AE100ED7587 /* terms3.html in Resources */,
+				ACD3D3B42510418F00CDD448 /* 이순신돋움체L.otf in Resources */,
+				AC1940EB252C7AE100ED7587 /* terms4.html in Resources */,
+				ACD3D3B22510418F00CDD448 /* 이순신돋움체M.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54FA2CD7989DB4F18DC0E062 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iBeacon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2FD59F0B7814EC3BD84C24E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iBeacon/Pods-iBeacon-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iBeacon/Pods-iBeacon-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iBeacon/Pods-iBeacon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACD3D386250F0B7E00CDD448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA7A42C2511ADD70061861C /* DATA_API.swift in Sources */,
+				ACD3D3A6250F0C6F00CDD448 /* LOADING.swift in Sources */,
+				AC3D28A4253443F5003ED401 /* MSID_DB.swift in Sources */,
+				AC1940DD252C582F00ED7587 /* HELP.swift in Sources */,
+				1292B0792546858900F71F5C /* NOT_NETWORK.swift in Sources */,
+				ACA7A42A2511A6D10061861C /* SCHOOL_SEARCH.swift in Sources */,
+				ACD3D3C22510677E00CDD448 /* SIGN_UP.swift in Sources */,
+				ACD3D38E250F0B7E00CDD448 /* AppDelegate.swift in Sources */,
+				ACD3D3A4250F0BFA00CDD448 /* EXTENSION.swift in Sources */,
+				ACD3D3BF251066B200CDD448 /* SLIDE_IN_TRANSITION.swift in Sources */,
+				ACA50421251B129700C33973 /* POINT.swift in Sources */,
+				AC33FA7425188AD100BD2E0E /* HOME.swift in Sources */,
+				AC33FA7725188C1E00BD2E0E /* BARCODE.swift in Sources */,
+				AC1940E3252C79FE00ED7587 /* AGREEMENT.swift in Sources */,
+				AC33FA702518453A00BD2E0E /* MEMBER_INFO.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ACD3D393250F0B7E00CDD448 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACD3D394250F0B7E00CDD448 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACD3D398250F0B8000CDD448 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACD3D399250F0B8000CDD448 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACD3D39C250F0B8000CDD448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ACD3D39D250F0B8000CDD448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACD3D39F250F0B8000CDD448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E573D343ABCC1D95EF40D43 /* Pods-iBeacon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iBeacon/iBeacon.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 18;
+				DEVELOPMENT_TEAM = 6XLR5P652Z;
+				INFOPLIST_FILE = iBeacon/MAIN_CENTER/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = busan.mobile.student;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = iBeacon/FUNCTION/SQLite/MSID_SQL.h;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		ACD3D3A0250F0B8000CDD448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E063391CFEA8E91140C5210 /* Pods-iBeacon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iBeacon/iBeacon.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 18;
+				DEVELOPMENT_TEAM = 6XLR5P652Z;
+				INFOPLIST_FILE = iBeacon/MAIN_CENTER/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = busan.mobile.student;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = iBeacon/FUNCTION/SQLite/MSID_SQL.h;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACD3D385250F0B7E00CDD448 /* Build configuration list for PBXProject "iBeacon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD3D39C250F0B8000CDD448 /* Debug */,
+				ACD3D39D250F0B8000CDD448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACD3D39E250F0B8000CDD448 /* Build configuration list for PBXNativeTarget "iBeacon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD3D39F250F0B8000CDD448 /* Debug */,
+				ACD3D3A0250F0B8000CDD448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACD3D382250F0B7E00CDD448 /* Project object */;
+}
